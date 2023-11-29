@@ -16,7 +16,10 @@ TELECOM Bretagne - Annee 2016-2017
 </p>
 
 ## Outils utilisés
-
+Programmation
+* Suivi de version : Git / BitBucket
+* Tests unitaires : JUnit
+* Designs pattern : Factory...
 
 
 ## Contributeurs
