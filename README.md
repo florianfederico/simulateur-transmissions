@@ -7,8 +7,6 @@ TELECOM Bretagne - Annee 2016-2017
   <img src="readme/Animation.gif" alt="" width="400"/>
 </p>
 
-Potager en carrés est un projet de développement en Java réalisé en 2014-2015 par une équipe de 4 étudiants en 2ème année de DUT Informatique.
-L'objectif est de mettre en pratique les cours de Programmation Orientée Objet et de gestion de projet.
 
 
 ## Fonctionnalités
