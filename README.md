@@ -19,7 +19,6 @@ binaire (TEB)**.
 
 L'objectif est de simuler le **taux d'erreur binaire** en fonction des **signaux** et des **bruits** appliqués avec un projet de 4 étudiants sur 1 mois. 
 
-
 ## Déroulement
 
 Pour cela, les éléments modélisés sont : 
@@ -53,10 +52,19 @@ Ajout d'un tranducteur visant à atténuer les effets du bruits et diminuer le t
 
 
 ## Méthode
-Programmation
+Les tâches ont été réparties entre les membres de l'équipe :
+* Florian Federico : intégrateur logiciel
+* Bastien : chef de projet
+* Nathan : coordinateur
+* Thibaud : responsable des livrables
+
+La conception et le développement ont été structurés afin de faciliter les modifications à chaque étape :
 * Suivi de version : Git / BitBucket
-* Test Driven Development pour éviter les régressions entre les étapes 
-* Designs pattern : Factory...
+* Tests de non-régression : mise en place de la méthode "Test Driven Development" avec les tests unitaires JUnit 
+* Architecture modulaire : utilisation de designs pattern (Factory principalement pour les différentes formes de signaux)
+
+Le diagramme UML du projet : 
+<p align="left"><img src="readme/ClassDiagram.png" alt="" width="1000" /></p>
 
 
 ## Utilisation
@@ -109,15 +117,6 @@ utilisation de sondes et sans utilisation de transducteur.
   * Par défaut le simulateur doit utiliser 0 et 0.0f pour tous les trajets indirects (5 au maximum).
 * **-transducteur** : précise l’utilisation d’un transducteur (en émission et réception).
   * Par défaut le simulateur n’utilise pas de transducteur.
-
-
-## Contributeurs
-
-* Florian Federico : intégrateur logiciel
-* Bastien : chef de projet
-* Nathan : coordinateur
-* Thibaud : responsable des livrables
-
 
 ## Configuration
 
