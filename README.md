@@ -63,13 +63,30 @@ La conception et le développement ont été structurés afin de faciliter les m
 * Tests de non-régression : mise en place de la méthode "Test Driven Development" avec les tests unitaires JUnit 
 * Architecture modulaire : utilisation de designs pattern (Factory principalement pour les différentes formes de signaux)
 
-Le diagramme UML du projet : 
+Le diagramme UML a évolué avec les étapes du projet : 
 <p align="left"><img src="readme/ClassDiagram.png" alt="" width="1000" /></p>
-
 
 ## Résultats
 
+Le logiciel final fourni au client est actuellement **opérationnel**, entièrement **documenté**
+(Javadoc) et également **performant**. Nous avons conçu une application permettant de simuler un
+système de télécommunications. À travers cette application, nous offrons au client l’opportunité
+de choisir la valeur de l’échantillonnage, la valeur du SNR ou bien le nombre de trajets multiples. Il
+s’agit donc d’une application complète qui peut aussi bien servir à simuler un système radio, tout
+comme un système optique.
 
+D’un point de vue logiciel, nous avons fait en sorte de le structurer d’une manière **très
+organisée**, la plus **épurée** possible. Ainsi, il est **très facile, à terme, d’ajouter d’autres bruits ou
+d’autres méthodes de codage canal / codage de forme**. Notre logiciel est ainsi facilement
+**modulable**, ce qui est un plus à mettre en avant auprès du client. <br/>
+De même, il est peut-être intéressant de préciser que le logiciel fourni est extrêmement
+performant. Nous avons essayé d’optimiser au maximum les ressources nécessaires au bon
+fonctionnement de l’application. Cette dernière peut donc être facilement utilisée sur les
+ordinateurs des clients.
+
+L’**architecture** développée lors de ce projet, nous avons permis de **gagner du temps** en
+anticipant l’ajout de plusieurs éléments (très facile d’implémenter les trajets multiples et les
+transducteurs).
 
 ## Utilisation
 ### NAME
