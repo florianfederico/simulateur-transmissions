@@ -67,6 +67,10 @@ Le diagramme UML du projet :
 <p align="left"><img src="readme/ClassDiagram.png" alt="" width="1000" /></p>
 
 
+## Résultats
+
+
+
 ## Utilisation
 ### NAME
 simulateur – Simulation de la transmission d'un message numérique.
