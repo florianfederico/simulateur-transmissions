@@ -4,8 +4,8 @@
 TELECOM Bretagne - Année 2016-2017
 
 <p align="left">
-  <img src="readme/diag-oeil.png" alt="" width="600" />
-  <img src="readme/teb-snr.png" alt="" width="300" />
+  <img src="readme/diag-oeil.png" alt="" width="550" />
+  <img src="readme/teb-snr.png" alt="" width="275" />
 </p>
 
 ## Contexte
