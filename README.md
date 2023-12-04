@@ -88,6 +88,8 @@ L’**architecture** développée lors de ce projet, nous avons permis de **gagn
 anticipant l’ajout de plusieurs éléments (très facile d’implémenter les trajets multiples et les
 transducteurs).
 
+Le rapport du projet est disponible ici : <a href="readme/SIT213_FR_SANCHEZ_FEDERICO_PONCELET_MOULY-étape5.pdf">Rapport de projet</a>
+
 ## Utilisation
 ### NAME
 simulateur – Simulation de la transmission d'un message numérique.
