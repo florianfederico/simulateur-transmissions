@@ -3,11 +3,25 @@
 
 TELECOM Bretagne - Annee 2016-2017
 
-<p align="center">
-  <img src="readme/Animation.gif" alt="" width="400"/>
+Dans le monde des télécommunications tel que nous le connaissons, des **signaux** sont émis
+dans un environnement guidé (Fibre optique) ou libre (Faisceau hertzien). Ces signaux subissent
+une atténuation et sont noyés dans divers types de **bruits**, ajoutés durant le trajet. Le signal en
+réception peut ainsi être méconnaissable, et malgré les différents traitements mathématiques
+existant à l’heure actuelle, il se peut qu’une partie ne soit plus exploitable. C’est ainsi que nos
+récepteurs réalisent des erreurs de jugement, qui sont à l’origine de l’augmentation du **taux d’erreur
+binaire (TEB)**.
+
+Ce projet de simulation en Java a eu pour objectif de simuler le **taux d'erreur binaire** en fonction des **signaux** et des **bruits** appliqués. 
+Pour cela, les éléments modélisés sont : 
+* Source : signal à émettre
+* Codeur : ajoute de l'information redondante / passage en signal analogique
+* Transmetteur : canal de transmission pouvant ajouter du bruit
+* Décodeur : passage en signal numérique
+* Destination : destinataire du signal d'origine
+
+<p align="left">
+  <img src="readme/01-modele.png" alt="" width="400"/>
 </p>
-
-
 
 ## Fonctionnalités
 
