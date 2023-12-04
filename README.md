@@ -99,7 +99,7 @@ utilisation de sondes et sans utilisation de transducteur.
 ## Outils utilisés
 Programmation
 * Suivi de version : Git / BitBucket
-* Tests unitaires : JUnit
+* Test Driven Development pour éviter les régressions entre les étapes 
 * Designs pattern : Factory...
 
 
