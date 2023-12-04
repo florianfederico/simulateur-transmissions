@@ -3,7 +3,10 @@
 
 TELECOM Bretagne - Année 2016-2017
 
-<p align="left"><img src="readme/diag-oeil.png" alt="" width="400" /></p>
+<p align="left">
+  <img src="readme/diag-oeil.png" alt="" width="600" />
+  <img src="readme/teb-snr.png" alt="" width="300" />
+</p>
 
 ## Contexte
 Dans le monde des télécommunications tel que nous le connaissons, des **signaux** sont émis
@@ -48,7 +51,15 @@ Ajout de bruits réalistes : trajets multiples, dispersion chromatique...
 Ajout d'un tranducteur visant à atténuer les effets du bruits et diminuer le taux d'erreur binaire
 <p align="left"><img src="readme/etape5.png" alt="" width="400" /></p>
 
-## Fonctionnalités
+
+## Méthode
+Programmation
+* Suivi de version : Git / BitBucket
+* Test Driven Development pour éviter les régressions entre les étapes 
+* Designs pattern : Factory...
+
+
+## Utilisation
 ### NAME
 simulateur – Simulation de la transmission d'un message numérique.
 
@@ -98,12 +109,6 @@ utilisation de sondes et sans utilisation de transducteur.
   * Par défaut le simulateur doit utiliser 0 et 0.0f pour tous les trajets indirects (5 au maximum).
 * **-transducteur** : précise l’utilisation d’un transducteur (en émission et réception).
   * Par défaut le simulateur n’utilise pas de transducteur.
-
-## Outils utilisés
-Programmation
-* Suivi de version : Git / BitBucket
-* Test Driven Development pour éviter les régressions entre les étapes 
-* Designs pattern : Factory...
 
 
 ## Contributeurs
