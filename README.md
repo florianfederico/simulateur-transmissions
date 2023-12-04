@@ -3,6 +3,8 @@
 
 TELECOM Bretagne - Année 2016-2017
 
+<p align="left"><img src="readme/diag-oeil.png" alt="" width="400" /></p>
+
 ## Contexte
 Dans le monde des télécommunications tel que nous le connaissons, des **signaux** sont émis
 dans un environnement guidé (Fibre optique) ou libre (Faisceau hertzien). Ces signaux subissent
@@ -13,6 +15,7 @@ récepteurs réalisent des erreurs de jugement, qui sont à l’origine de l’a
 binaire (TEB)**.
 
 L'objectif est de simuler le **taux d'erreur binaire** en fonction des **signaux** et des **bruits** appliqués avec un projet de 4 étudiants sur 1 mois. 
+
 
 ## Déroulement
 
