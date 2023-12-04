@@ -23,31 +23,27 @@ Pour cela, les éléments modélisés sont :
 * Décodeur : passage en signal numérique
 * Destination : destinataire du signal d'origine
 
-<p align="center">
-  <img src="readme/01-modele.png" alt="" width="500" /> <br/>
-  <i>Modèle général</i>
-</p>
-
-
 Le projet s'est déroulé en plusieurs étapes d'ajout de fonctionnalités.
 
 ### Etape 1 : signal numérique et transmetteur parfait
 Réalisation d'un simple transmetteur parfait (aucun bruit) avec un signal numérique :
-<p align="center">
-  <img src="readme/etape1.png" alt="" width="500" /> <br/>
-</p>
+<p align="left"><img src="readme/etape1.png" alt="" width="400" /></p>
 
 ### Etape 2 : signaux analogiques 
 Ajout d'un codeur/décodeur pour transmettre 3 types de signaux analogiques : RZ, NRZ, NRZT
+<p align="left"><img src="readme/etape2.png" alt="" width="400" /></p>
 
 ### Etape 3 : transmetteur bruité
 Ajout d'un bruit blanc gaussien via le transmetteur : le taux d'erreur binaire n'est plus à zéro
+<p align="left"><img src="readme/etape3.png" alt="" width="400" /></p>
 
 ### Etape 4 : bruits complexes
 Ajout de bruits réalistes : trajets multiples, dispersion chromatique...
+<p align="left"><img src="readme/etape4.PNG" alt="" width="400" /></p>
 
 ### Etape 5 : codeur/décodeur pour atténuer le bruit
 Ajout d'un codeur/décodeur visant à atténuer les effets du bruits et diminuer le taux d'erreur binaire
+<p align="left"><img src="readme/etape5.PNG" alt="" width="400" /></p>
 
 ## Fonctionnalités
 
