@@ -113,7 +113,7 @@ utilisation de sondes et sans utilisation de transducteur.
 
 ## Contributeurs
 
-* Florian Federico : intégrateur
+* Florian Federico : intégrateur logiciel
 * Bastien : chef de projet
 * Nathan : coordinateur
 * Thibaud : responsable des livrables
